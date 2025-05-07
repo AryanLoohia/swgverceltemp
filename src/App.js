@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import { Analytics } from "@vercel/analytics/react"
 import {Route, Switch, Routes, useLocation} from "react-router";
 import Navbar from "components/NavBar/Navbar";
 import Events from "components/Events/Events";
