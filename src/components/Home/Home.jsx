@@ -3,11 +3,12 @@ import FAQ from './FAQ'
 import Hblog from './Hblog'
 import HeroNew from './Hero/HeroNew'
 import HEvents from './HEvents'
+import { Analytics } from "@vercel/analytics/react"
 import styled, { StyledComponent } from 'styled-components'
 import HIntro from './HIntro'
 import Footer from 'components/Footer/Footer'
 import ScrollToTopH from 'components/ScrollToTopH'
-import { Analytics } from "@vercel/analytics/react"
+
 const HomeTag = styled.section`
   position: relative;
   margin-top: 8vh;
